@@ -1,0 +1,248 @@
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.AssemblyInfoInputs.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.AssemblyInfo.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorAssemblyInfo.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorAssemblyInfo.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.exe
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.deps.json
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.runtimeconfig.json
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.runtimeconfig.dev.json
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.pdb
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.Views.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.Views.pdb
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.csproj.AssemblyReference.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\staticwebassets\EcommerceCCO2023.StaticWebAssets.Manifest.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\staticwebassets\EcommerceCCO2023.StaticWebAssets.xml
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\scopedcss\bundle\EcommerceCCO2023.styles.css
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.TagHelpers.input.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.TagHelpers.output.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorCoreGenerate.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Create.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorTargetAssemblyInfo.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorTargetAssemblyInfo.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.Views.pdb
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.csproj.CopyComplete
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.dll
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.pdb
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.genruntimeconfig.cache
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ProdutoResumo.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Produto\IndexProd.cshtml.g.cs
+C:\Users\Valeria\source\repos\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Update.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.StaticWebAssets.xml
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.exe
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.deps.json
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.runtimeconfig.json
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.runtimeconfig.dev.json
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.pdb
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.Views.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\EcommerceCCO2023.Views.pdb
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.csproj.AssemblyReference.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.AssemblyInfoInputs.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.AssemblyInfo.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.csproj.CoreCompileInputs.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorAssemblyInfo.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorAssemblyInfo.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\staticwebassets\EcommerceCCO2023.StaticWebAssets.Manifest.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\staticwebassets\EcommerceCCO2023.StaticWebAssets.Pack.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.EcommerceCCO2023.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.EcommerceCCO2023.props
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.EcommerceCCO2023.props
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.EcommerceCCO2023.props
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.TagHelpers.input.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.TagHelpers.output.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorCoreGenerate.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Create.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Produto\IndexProd.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Update.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ProdutoResumo.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorTargetAssemblyInfo.cache
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.RazorTargetAssemblyInfo.cs
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.Views.pdb
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.csproj.CopyComplete
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.dll
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.pdb
+C:\Users\Lagoa\Downloads\EcommerceCCO2023 (2)\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.1\EcommerceCCO2023.genruntimeconfig.cache

@@ -1,0 +1,53 @@
+﻿@model Produto
+
+<form asp-controller="Produto" asp-action="Create" method="POST">
+    <h2>Cadastrar Produto</h2>
+    <br />
+    <div class="form-group">
+        <label> Produto </label>
+        <input asp-for="NomeProd" class="form-control" />
+        <span asp-validation-for="NomeProd"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Descrição</label>
+        <input asp-for="Descricao" class="form-control" />
+        <span asp-validation-for="Descricao"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Preço</label>
+        <input asp-for="Valor" class="form-control" />
+        <span asp-validation-for="Valor"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Qtd Estoque</label>
+        <input asp-for="Quantidade" class="form-control" />
+        <span asp-validation-for="Quantidade"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Arquivo Imagem</label>
+        <input asp-for="UrlImagem" class="form-control" />
+        <span asp-validation-for="UrlImagem"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Situação do Produto [1 - Ativo, 2 - Inativo]</label>
+        <input asp-for="Status" class="form-control" />
+        <span asp-validation-for="Status"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Categoria</label>
+        <select asp-for="Categoria.IdCategoria" class="form-control">
+            @foreach (var categoria in ViewBag.Categorias)
+            {
+                <option value="@categoria.IdCategoria">@categoria.NomeCategoria</option>
+            }
+        </select>
+    </div>
+
+    <button class="btn btn-primary">Cadastrar</button>
+</form>

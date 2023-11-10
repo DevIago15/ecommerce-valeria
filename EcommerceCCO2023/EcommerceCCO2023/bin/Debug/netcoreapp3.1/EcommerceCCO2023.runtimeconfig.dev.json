@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Lagoa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Lagoa\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+﻿@model List<Produto>
+
+<table class="table table-striped table-hover">
+    @if (Model != null)
+    {
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Categoria</th>
+            <th></th>
+        </tr>
+        
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.IdProduto</td>
+                <td>@p.NomeProd</td>
+                <td>@p.Descricao</td>
+                <td>@p.Valor</td>
+                <td>@p.Categoria.NomeCategoria</td>
+                <td>
+                    <a class="btn btn-sm btn-success" href="/Produto/Update/@p.IdProduto">Editar</a>
+                    <a class="btn btn-sm btn-warning" href="/Produto/Delete/@p.IdProduto">Apagar</a>
+                </td>
+            </tr>
+        }
+    }
+    else
+    {
+    <tr>
+        <td> VOLTOU NULL </td>
+    </tr>
+    }
+
+    </table>
+
+<a class="btn btn-primary" href="/Produto/Create">Adicionar</a>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EcommerceCCO2023.props" />
+</Project>
