@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Threading.Tasks;
 
 namespace Ecommerce.Models
 {
@@ -12,15 +12,16 @@ namespace Ecommerce.Models
         public int IdCliente { get; set; }
         public DateTime Data { get; set; }
         public int Status { get; set; }
-        public List<Itens_Pedido> Itens { get; set; } = new List<Itens_Pedido>();
+        // todo pedido tem pelo menos um item (produto)
+        // os itens ficarão em uma lista
+        public List<Itens_Pedido> Itens { get; set; }
+            = new List<Itens_Pedido>();
         public decimal TotalPedido
         {
             get
             {
-                return Itens.Sum(i => i.ValorTotal); // notacao LAMBDAS pro i variando de 0 até o fim da lista e fazer a soma (poderia ser trocado por um for passando pela lista e somando tudo
+                return Itens.Sum(i => i.ValorTotal);
             }
         }
-
-
     }
 }

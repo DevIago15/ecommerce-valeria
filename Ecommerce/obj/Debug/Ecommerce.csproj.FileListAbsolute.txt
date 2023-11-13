@@ -84,3 +84,7 @@ C:\Users\Lagoa\OneDrive\Área de Trabalho\pes\facul\Linguagem de Programação 1
 C:\Users\Lagoa\OneDrive\Área de Trabalho\pes\facul\Linguagem de Programação 1\programas\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CopyComplete
 C:\Users\Lagoa\OneDrive\Área de Trabalho\pes\facul\Linguagem de Programação 1\programas\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
 C:\Users\Lagoa\OneDrive\Área de Trabalho\pes\facul\Linguagem de Programação 1\programas\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
+C:\Users\Lagoa\OneDrive\Área de Trabalho\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.AssemblyReference.cache
+C:\Users\Lagoa\OneDrive\Área de Trabalho\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CoreCompileInputs.cache
+C:\Users\Lagoa\OneDrive\Área de Trabalho\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
+C:\Users\Lagoa\OneDrive\Área de Trabalho\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb

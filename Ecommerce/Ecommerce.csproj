@@ -130,6 +130,7 @@
     <Compile Include="Models\Data\CategoriaData.cs" />
     <Compile Include="Models\Data\Data.cs" />
     <Compile Include="Models\Data\ProdutoData.cs" />
+    <Compile Include="Models\ErrorViewModel.cs" />
     <Compile Include="Models\Itens_Pedido.cs" />
     <Compile Include="Models\Pedido.cs" />
     <Compile Include="Models\Produto.cs" />
@@ -170,8 +171,16 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Privacy.cshtml" />
     <Content Include="Views\Produto\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Produto\CadastrarProduto.cshtml" />
+    <Content Include="Views\Produto\Create.cshtml" />
+    <Content Include="Views\Produto\IndexProd.cshtml" />
+    <Content Include="Views\Produto\Update.cshtml" />
+    <Content Include="Views\Shared\_Carousel.cshtml" />
+    <Content Include="Views\Shared\_ProdutoResumo.cshtml" />
+    <Content Include="Views\Shared\_ValidationScripts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
