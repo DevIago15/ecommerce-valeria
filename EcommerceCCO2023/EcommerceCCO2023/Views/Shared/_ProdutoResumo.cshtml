@@ -2,27 +2,28 @@
 <!-- Criando duas colunas de tamanho 6 que podem funcionar em
                 3 tipos de dispositivos: peq., med., grd -->
 
-<div class="col-sm-4 col-md-4 col-lg-4">
-    <p><img src="~/images/@Model.UrlImagem" alt = "@Model.UrlImagem"class="img-fluid"></p>
-    <h3>Preço: @Model.Valor.ToString("c")</h3>
+<section class="popular section" id="popular">
 
-    <!-- Nome do lanche é link para mostrar a descrição detalhado do Lanche -->
-    <a asp-controller="Lanche" asp-action="Details"
-       asp-route-lancheId="@Model.IdProduto">
-        @Model.NomeProd
-    </a>
+    <article class="popular__card">
+        <p><img src="~/images/@Model.UrlImagem" alt = "@Model.UrlImagem" class="popular__img"></p>
+        <h3>Preço: @Model.Valor.ToString("c")</h3>
 
-    <p>@Model.Descricao</p>
+        <!-- Nome do lanche é link para mostrar a descrição detalhado do Lanche -->
+        <a asp-controller="Lanche" asp-action="Details"
+            asp-route-lancheId="@Model.IdProduto">
+            @Model.NomeProd
+        </a>
 
-    <!-- Botão para adicionar o lanche selecionado ao Carrinho de Compra -->
-    <div>
-        <p class="button">
-            <a class="btn btn-primary" id="carButton"
-               asp-controller="CarrinhoCompra"
-               asp-action="AdicionarItemAoCarrinhoCompra"
-               asp-route-LancheId="@Model.IdProduto">
-                Incluir no carrinho
-            </a>
-        </p>
-    </div>
-</div>
+        <p>@Model.Descricao</p>
+
+        <!-- Botão para adicionar o lanche selecionado ao Carrinho de Compra -->
+        <button class="popular__button">
+                <a class="btn btn-primary" id="carButton"
+                    asp-controller="CarrinhoCompra"
+                    asp-action="AdicionarItemAoCarrinhoCompra"
+                    asp-route-LancheId="@Model.IdProduto">
+                    <i class = "ri-shopping-bag-line"></i>
+                </a>
+        </button>
+    </article>
+</section>

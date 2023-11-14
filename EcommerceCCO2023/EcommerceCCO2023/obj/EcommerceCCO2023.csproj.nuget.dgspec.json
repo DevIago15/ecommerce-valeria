@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lagoa\\Downloads\\EcommerceCCO2023 (2)\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {}
+    "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lagoa\\Downloads\\EcommerceCCO2023 (2)\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {
+    "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lagoa\\Downloads\\EcommerceCCO2023 (2)\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+        "projectUniqueName": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
         "projectName": "EcommerceCCO2023",
-        "projectPath": "C:\\Users\\Lagoa\\Downloads\\EcommerceCCO2023 (2)\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+        "projectPath": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
         "packagesPath": "C:\\Users\\Lagoa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lagoa\\Downloads\\EcommerceCCO2023 (2)\\EcommerceCCO2023\\EcommerceCCO2023\\obj\\",
+        "outputPath": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lagoa\\AppData\\Roaming\\NuGet\\NuGet.Config",

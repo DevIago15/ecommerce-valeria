@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "djiOQz4sG+4Q6s5WfRFf8Z/cQOERwHMhPb+0vdtvzuN/czLSTNm4fHj32H+Gw1lpgjhgG/Yn+BdEJ7nMD9TH4A==",
+  "dgSpecHash": "eVzYse///xHe7ifNZ4Yfg5PNbKwUedaOcBXyzBvEqlotISw1Bo4kGBSatEM4kJxmwJZZE81y4da3PxtaAMQ/Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lagoa\\Downloads\\EcommerceCCO2023 (2)\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+  "projectFilePath": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lagoa\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Lagoa\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
