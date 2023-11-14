@@ -3,8 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] Linguagem de Programação - UNIRP</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>@ViewData["Title"] Linguagem de Programação - UNIRP</title> <!-- foi retirado o bootstrap do link rel, quebrou a aba "produtos"-->
     <link rel="stylesheet" href="~/css/styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
@@ -23,7 +22,7 @@
                         </li>
 
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About us</a>
+                            <a class="nav__link" asp-area="" asp-controller="Produto" asp-action="IndexProd" target="_blank">Produto</a> <!--ultimo teste feito foi com o blank, o problema é que o asp-action chama a view dentro do layout, e nao um nova pagina na web -->
                         </li>
 
                         <li class="nav__item">
