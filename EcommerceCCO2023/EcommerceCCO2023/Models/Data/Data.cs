@@ -8,7 +8,7 @@ namespace EcommerceCCO2023.Models.Data
         
         // conexão usando autenticação do Windows
         private static string stringConexao =
-            @"Data source = IAGO\SQLEXPRESS;
+            @"Data source = Matheus\SQLEXPRESS;
             Initial Catalog = Lanches_LP_CCO2023;
             Integrated Security = true;";
 
