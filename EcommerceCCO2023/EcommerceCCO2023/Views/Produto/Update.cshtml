@@ -1,5 +1,9 @@
 ﻿@model Produto
 
+@{
+    Layout = "_LayoutProduto";
+}
+
 <form asp-controller="Produto" asp-action="Update" method="POST">
     <h2>Cadastrar Produto</h2>
     <br />
@@ -49,5 +53,5 @@
         </select>
     </div>
 
-    <button class="btn btn-primary">Salvar</button>
+    <a href="" class="button">Salvar</a>
 </form>

@@ -276,3 +276,4 @@ C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\Ecom
 C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.dll
 C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.pdb
 C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.genruntimeconfig.cache
+C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutProduto.cshtml.g.cs

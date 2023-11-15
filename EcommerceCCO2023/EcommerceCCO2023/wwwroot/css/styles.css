@@ -432,186 +432,11 @@ body.dark-theme {
     transform: rotate(-15deg);
 }
 
-/*=============== POPULAR ===============*/
-.popular__container {
-    padding-top: 4rem;
-    grid-template-columns: 250px;
-    justify-content: center;
-    row-gap: 5.5rem;
+/*=============== FORM ===============*/
+.form-group {
+    background-color: white;
 }
 
-.popular__card {
-    position: relative;
-    background-color: var(--container-color);
-    padding: 1.5rem 2rem 1.5rem;
-    box-shadow: 0 8px 20px hsla(19, 64%, 48%, .08);
-    border-radius: 1rem;
-    text-align: center;
-    /* for dark mode animation */
-    transition: background .4s;
-}
-
-.popular__img {
-    width: 220px;
-    position: absolute;
-    inset: 0;
-    top: -2.5rem;
-    margin: 0 auto;
-    transition: transform .4s;
-}
-
-.popular__name {
-    font-size: var(--h3-font-size);
-    font-family: var(--title-font);
-    margin-bottom: .25rem;
-}
-
-.popular__description {
-    display: block;
-    font-size: var(--smaller-font-size);
-    margin-bottom: 1rem;
-}
-
-.popular__price {
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
-    color: var(--first-color);
-}
-
-.popular__button {
-    display: flex;
-    background-color: var(--first-color);
-    padding: 6px;
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-size: 1.25rem;
-    box-shadow: 0 4px 20px hsla(19, 64%, 20%, .2);
-    position: absolute;
-    bottom: 1.25rem;
-    right: 1.25rem;
-    cursor: pointer;
-    transition: background .3s;
-}
-
-    .popular__button:hover {
-        background-color: var(--first-color-alt);
-    }
-
-.popular__card:hover .popular__img {
-    transform: translateY(-.25rem);
-}
-
-/*=============== RECENTLY ===============*/
-.recently {
-    position: relative;
-}
-
-.recently__container {
-    row-gap: 4rem;
-}
-
-.recently__data {
-    position: relative;
-    text-align: center;
-}
-
-.recently__description {
-    margin-bottom: 2rem;
-}
-
-.recently__data-img {
-    width: 25px;
-    position: absolute;
-    top: 3.5rem;
-    right: 1.5rem;
-    transform: rotate(30deg);
-}
-
-.recently__img {
-    width: 300px;
-    justify-self: center;
-}
-
-.recently__leaf-1,
-.recently__leaf-2 {
-    position: absolute;
-    opacity: .2;
-}
-
-.recently__leaf-1 {
-    width: 80px;
-    top: 17rem;
-    left: -1rem;
-    transform: rotate(15deg);
-}
-
-.recently__leaf-2 {
-    width: 40px;
-    right: -1rem;
-    bottom: 12rem;
-    transform: rotate(-30deg);
-}
-
-
-/*=============== NEWSLETTER ===============*/
-.newsletter__container {
-    position: relative;
-}
-
-.newsletter__content {
-    position: relative;
-    background-color: hsl(19, 24%, 15%);
-    border-radius: 2.5rem;
-    padding: 5rem 1rem 3rem;
-    text-align: center;
-    overflow: hidden;
-    margin-bottom: 2rem;
-}
-
-.newsletter__img {
-    width: 250px;
-    position: absolute;
-    top: -4.5rem;
-    left: -8rem;
-}
-
-.newsletter__data .section__title {
-    color: #fff;
-    margin-bottom: 2rem;
-}
-
-.newsletter__form {
-    background-color: #fff;
-    padding: 5px 5px 5px 16px;
-    border-radius: 4rem;
-    display: flex;
-    column-gap: .5rem;
-}
-
-.newsletter__input,
-.newsletter__button {
-    font-family: var(--body-font);
-    border: none;
-    outline: none;
-}
-
-.newsletter__input {
-    width: 90%;
-    color: var(--text-color);
-}
-
-.newsletter__button {
-    cursor: pointer;
-}
-
-.newsletter__container,
-.newsletter__form,
-.newsletter__input {
-    /* for dark mode animation */
-    transition: background .4s;
-}
 
 /*=============== FOOTER ===============*/
 .footer {
@@ -624,7 +449,7 @@ body.dark-theme {
     row-gap: 3rem;
 }
 
-.fotoer__logo {
+.footer__logo {
     display: inline-flex;
     align-items: center;
     column-gap: .5rem;
@@ -978,6 +803,7 @@ body.dark-theme {
 
     .popular__img {
         width: 230px;
+        border-radius: 2rem;
     }
 
     .popular__button {
