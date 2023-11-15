@@ -434,9 +434,21 @@ body.dark-theme {
 
 /*=============== FORM ===============*/
 .form-group {
-    background-color: white;
+    margin-bottom: 1rem;
 }
 
+.form-group::after {
+    box-sizing: border-box;
+}
+
+.form-group::before {
+    box-sizing: border-box;
+}
+
+.label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
 
 /*=============== FOOTER ===============*/
 .footer {
