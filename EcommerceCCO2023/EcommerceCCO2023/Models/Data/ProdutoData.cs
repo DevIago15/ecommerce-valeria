@@ -154,14 +154,12 @@ namespace EcommerceCCO2023.Models.Data
                         cmd.Parameters.AddWithValue("@Status", produto.Status);
                         cmd.Parameters.AddWithValue("@IdCategoria", produto.Categoria.IdCategoria);
 
-                        conexaoBD.Open();
-
                         if (cmd.ExecuteNonQuery() == 1)
                         {
                             sucesso = true;
                         }
-                    }
-                }
+                    } // O bloco using automaticamente chama o Dispose, que inclui o fechamento da conexão.
+                } // Outro bloco using para garantir que a conexão seja fechada, mesmo em caso de exceção.
             }
             catch (SqlException erro)
             {
@@ -170,6 +168,7 @@ namespace EcommerceCCO2023.Models.Data
 
             return sucesso;
         }
+
 
 
         // método delete para excluir um produto pelo id
