@@ -17,13 +17,13 @@ namespace EcommerceCCO2023.Models.Data
 
             // criar a string SQL para fazer o cadastro
             // de novos produtos
-            string insert = "exec sp_CadProduto '" +
+            string insert = "exec sp_CadCliente '" +
                 cliente.Nome + "', '" +
-                cliente.Email + "', " +
-                cliente.Senha + ", " +
-                cliente.statusCli + ", '" +
                 cliente.Foto + "', " +
-                cliente.IdCliente;
+                cliente.Email + ", " +
+                cliente.Senha + ", '" +
+                cliente.Foto + "', " +
+                cliente.statusCli + ", ";
 
             try
             {
@@ -70,21 +70,22 @@ namespace EcommerceCCO2023.Models.Data
                 while (reader.Read())
                 {                                      
                     Cliente cliente = new Cliente();
-                    cliente.IdCliente = (int)reader["idProduto"];
-                    cliente.Nome = reader["NomeProd"].ToString();
-                    cliente.Foto = reader["Descricao"].ToString();
-                    //cliente.Email = (int)reader["QtdProd"];
-                    //cliente.Senha =  (decimal) reader["Valor"];
+                    cliente.IdCliente = (int)reader["idCliente"];
+                    cliente.Nome = reader["nomeCli"].ToString();
+                    cliente.Email = reader["email"].ToString();
+                    cliente.Senha = reader["senha"].ToString();
+                    cliente.statusCli = (int)reader["status"];
+
                     if (!reader.IsDBNull(5))
                     {
-                        cliente.Foto = reader["UrlImg"].ToString();
+                        cliente.Foto = reader["foto"].ToString();
                     }
                     lista.Add(cliente);
                 }
             } 
             catch (SqlException erro)
             {
-                Console.WriteLine("\n\n\n Erro Produto " + erro + "\n\n\n");
+                Console.WriteLine("\n\n\n Erro Cliente " + erro + "\n\n\n");
             }
           
             return lista;
@@ -108,15 +109,14 @@ namespace EcommerceCCO2023.Models.Data
             Cliente cliente = null;
             if(reader.Read())
             {
-                cliente = new Cliente();
-                cliente.IdCliente = (int)reader["idProduto"];
-                cliente.Nome = reader["NomeProd"].ToString();
-                cliente.Foto = reader["Descricao"].ToString();
-                cliente.Email = reader["QtdProd"].ToString();
-                //cliente.Senha = (int)reader["senha"];
+                cliente.IdCliente = (int)reader["idCliente"];
+                cliente.Nome = reader["nomeCli"].ToString();
+                cliente.Email = reader["email"].ToString();
+                cliente.Senha = reader["senha"].ToString();
+
                 if (!reader.IsDBNull(5))
                 {
-                    cliente.Foto = reader["UrlImg"].ToString();
+                    cliente.Foto = reader["foto"].ToString();
                 }
                 cliente.statusCli = (int)reader["Status"];
 
@@ -131,7 +131,7 @@ namespace EcommerceCCO2023.Models.Data
             bool sucesso = false;
 
             // criar a string SQL para fazer o update de produto
-            string update = "EXEC sp_UpProduto @IdProduto, @NomeProd, @Descricao, @Quantidade, @Valor, @UrlImagem, @Status, @IdCategoria";
+            string update = "EXEC sp_UpCliente @IdCliente, @Nome, @Foto, @Email, @Senha, @statusCli";
 
             try
             {
@@ -140,12 +140,12 @@ namespace EcommerceCCO2023.Models.Data
                     using (SqlCommand cmd = new SqlCommand(update, conexaoBD))
                     {
                         // Adicionar parâmetros
-                        cmd.Parameters.AddWithValue("@IdProduto", cliente.IdCliente);
-                        cmd.Parameters.AddWithValue("@NomeProd", cliente.Nome);
-                        cmd.Parameters.AddWithValue("@Descricao", cliente.Foto);
-                        cmd.Parameters.AddWithValue("@Quantidade", cliente.Email);
-                        cmd.Parameters.AddWithValue("@Valor", cliente.Senha);
-                        cmd.Parameters.AddWithValue("@UrlImagem", cliente.statusCli);
+                        cmd.Parameters.AddWithValue("@IdCliente", cliente.IdCliente);
+                        cmd.Parameters.AddWithValue("@Nome", cliente.Nome);
+                        cmd.Parameters.AddWithValue("@Foto", cliente.Foto);
+                        cmd.Parameters.AddWithValue("@Email", cliente.Email);
+                        cmd.Parameters.AddWithValue("@Senha", cliente.Senha);
+                        cmd.Parameters.AddWithValue("@statusCli", cliente.statusCli);
 
                         if (cmd.ExecuteNonQuery() == 1)
                         {
@@ -156,13 +156,11 @@ namespace EcommerceCCO2023.Models.Data
             }
             catch (SqlException erro)
             {
-                Console.WriteLine("\n\n Erro de atualização do Cliente " + erro);
+                Console.WriteLine("\n\n Erro de Atualização do Cliente " + erro);
             }
 
             return sucesso;
         }
-
-
 
         // método delete para excluir um produto pelo id
         public bool Delete(int id)
