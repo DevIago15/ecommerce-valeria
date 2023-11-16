@@ -10,8 +10,15 @@ namespace EcommerceCCO2023.Controllers
         {
             ClienteData data = new ClienteData();
             return View(data.Read());
+
         }
 
+        public IActionResult Create()
+        {
+            ClienteData data = new ClienteData();
+            ViewBag.Cliente = data.Read();
+            return View();
+        }
 
         [HttpPost]
         public IActionResult Create(Cliente cliente)
