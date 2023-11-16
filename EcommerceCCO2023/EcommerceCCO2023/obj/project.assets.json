@@ -6700,19 +6700,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miranda\\.nuget\\packages\\": {}
+    "C:\\Users\\Lagoa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miranda\\Documents\\Ecommerce\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+      "projectUniqueName": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
       "projectName": "EcommerceCCO2023",
-      "projectPath": "C:\\Users\\Miranda\\Documents\\Ecommerce\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
-      "packagesPath": "C:\\Users\\Miranda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miranda\\Documents\\Ecommerce\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\obj\\",
+      "projectPath": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+      "packagesPath": "C:\\Users\\Lagoa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerceValeria\\EcommerceCCO2023\\EcommerceCCO2023\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lagoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6784,7 +6784,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -6793,7 +6793,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.VisualStudio.Web.CodeGeneration.Design 3.1.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "message": "O pacote 'Microsoft.VisualStudio.Web.CodeGeneration.Design 3.1.5' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.0"

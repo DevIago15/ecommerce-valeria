@@ -418,3 +418,8 @@ C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\Ecommerc
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.dll
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.pdb
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.genruntimeconfig.cache
+C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\CadastrarCliente.cshtml.g.cs
+C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Create.cshtml.g.cs
+C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\IndexCliente.cshtml.g.cs
+C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\Update.cshtml.g.cs
+C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerceValeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutCliente.cshtml.g.cs

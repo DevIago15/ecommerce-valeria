@@ -17,14 +17,7 @@ namespace EcommerceCCO2023.Models
 
         public Cliente()
         {
-            IdCliente = 0;
-            Nome = "";
-            Foto = "";
-            Email = "";
-            Senha = "";
-            statusCli = 0;
-        }
 
-        // ?? metodos
+        }
     }
 }
