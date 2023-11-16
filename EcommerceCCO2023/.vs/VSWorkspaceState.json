@@ -2,6 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\EcommerceCCO2023",
+    "\\EcommerceCCO2023\\bin",
+    "\\EcommerceCCO2023\\Controllers",
     "\\EcommerceCCO2023\\Models",
     "\\EcommerceCCO2023\\Models\\Data",
     "\\EcommerceCCO2023\\Views",

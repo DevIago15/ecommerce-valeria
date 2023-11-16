@@ -169,8 +169,8 @@ namespace EcommerceCCO2023.Models.Data
             bool sucesso = false;
             // declarar a string SQL para fazer a consulta
             // dos dados do Produto pelo seu id
-            string delete = "delete from Cliente " +
-                "where idCliente = " + id;
+            string delete = "DELETE FROM Clientes " +
+                "WHERE idCliente = " + id;
             // Conexão com  o BD
             SqlConnection conexaoBD = Data.ConectarBancoDados();
             // Comando que executa o SQL no BD
