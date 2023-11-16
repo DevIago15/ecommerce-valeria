@@ -17,7 +17,7 @@ namespace EcommerceCCO2023.Models.Data
 
             // criar a string SQL para fazer o cadastro
             // de novos produtos
-            string insert = "exec sp_CadProduto '" +
+            string insert = "exec sp_CadPro '" +
                 cliente.Nome + "', '" +
                 cliente.Email + "', " +
                 cliente.Senha + ", " +
