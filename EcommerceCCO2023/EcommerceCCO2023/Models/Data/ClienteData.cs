@@ -109,6 +109,7 @@ namespace EcommerceCCO2023.Models.Data
             Cliente cliente = null;
             if(reader.Read())
             {
+                cliente = new Cliente();
                 cliente.IdCliente = (int)reader["idCliente"];
                 cliente.Nome = reader["nomeCli"].ToString();
                 cliente.Email = reader["email"].ToString();

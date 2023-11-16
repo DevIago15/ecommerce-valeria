@@ -6,7 +6,7 @@ namespace EcommerceCCO2023.Controllers
 {
     public class ClienteController : Controller
     {
-        public IActionResult IndexCli()
+        public IActionResult IndexCliente()
         {
             ClienteData data = new ClienteData();
             return View(data.Read());
