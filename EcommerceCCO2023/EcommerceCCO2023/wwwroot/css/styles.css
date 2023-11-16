@@ -60,7 +60,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
-    color: var(--text-color);
+    color: var(--first-color);
     transition: background 0.4s;
     /* for dark mode animation */
     transition: background .4s;
@@ -99,6 +99,28 @@ img {
     cursor: pointer;
     transition: color .3s;
 }
+/*=============== Produtos ===============*/
+/* Estilos para o modo claro */
+.product-row {
+    color: var(--text-color);
+}
+
+/* Estilos  para o modo escuro */
+.dark-theme .product-row {
+    color: var(--title-color);
+}
+/* Para o modo claro */
+.product-row:hover {
+    /* Adicione os estilos que deseja quando o mouse está sobre o produto no modo claro */
+    background-color: var(--text-color);
+}
+
+/* Para o modo escuro */
+.dark-theme .product-row:hover {
+    /* Adicione os estilos que deseja quando o mouse está sobre o produto no modo escuro */
+    background-color: var(--title-color);
+}
+
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -964,3 +986,4 @@ body.dark-theme {
         width: 150px;
     }
 }
+
