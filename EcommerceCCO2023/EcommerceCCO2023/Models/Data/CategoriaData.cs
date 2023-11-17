@@ -21,7 +21,7 @@ namespace EcommerceCCO2023.Models.Data
 
             // criar a string SQL para consultar todas as 
             // categorias
-            string select = "select * from Categorias";
+            string select = "SELECT * FROM Categorias";
 
             // declaração de objeto de conexão com o 
             // Banco de dados

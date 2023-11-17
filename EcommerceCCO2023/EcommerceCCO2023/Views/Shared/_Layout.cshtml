@@ -82,6 +82,11 @@
 			<img src="~/images/leaf-branch-2.png" alt="home image" class="home__leaf-1">
 			<img src="~/images/leaf-branch-4.png" alt="home image" class="home__leaf-2">
 		</section>
+		<div class="container">
+			<main role="main" class="pb-3">
+				@RenderBody()
+			</main>
+		</div>
 
 		<!--==================== ABOUT ====================-->
 		<section class="about section" id="about">
@@ -111,11 +116,7 @@
 		</section>
 	</main>
 	</header>
-	<div class="container">
-		<main role="main" class="pb-3">
-			@RenderBody()
-		</main>
-	</div>
+
 
 	<footer class="footer">
 		<div class="footer__container container grid">
@@ -232,6 +233,7 @@
 	</footer>
 	<script src="~/lib/jquery/dist/jquery.min.js"></script>
 	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/notify.min.js" asp-append-version="true"></script>
 	<script src="~/js/main.js" asp-append-version="true"></script>
 	<script src="https://unpkg.com/scrollreveal"></script>
 	@RenderSection("Scripts", required: false)

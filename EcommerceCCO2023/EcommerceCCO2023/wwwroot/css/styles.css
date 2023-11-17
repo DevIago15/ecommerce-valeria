@@ -144,6 +144,8 @@ body.dark-theme {
 
 .dark-theme .popular__card {
     box-shadow: 0 8px 20px hsla(19, 64%, 4%, .2);
+    background-color: var(--container-color);
+    box-shadow: rgba(0, 0, 0.35) 0px 5px 15px;
 }
 
 .dark-theme .newsletter__content {
@@ -832,8 +834,11 @@ body.dark-theme {
 
     .popular__card {
         padding: 7.5rem 2rem 2rem;
-        border-radius: 1.5rem
+        border-radius: 1.5rem; 
+        background-color: var(--body-color);
+        box-shadow: rgba(0, 0, 0.35) 0px 5px 15px;
     }
+    
 
     .popular__img {
         width: 230px;
