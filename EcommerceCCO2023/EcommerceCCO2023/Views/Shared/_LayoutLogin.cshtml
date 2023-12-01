@@ -1,47 +1,44 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"] Linguagem de Programação - UNIRP</title>
-    <link rel="stylesheet" href="~/css/login.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewData["Title"] Linguagem de Programação - UNIRP</title>
+	<link rel="stylesheet" href="~/css/login.css" />
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
 <body>
+	<div class="wrapper">
+		<h1>Login</h1>
+		<div class="imput-box">
+			<input type="text" placeholder="E-mail" required>
+			<i class='bx bxs-user'></i>
+		</div>
 
-    <div class="wrapper">
-        <h1>Login</h1>
-        <div class="imput-box">
-            <input type="text" placeholder="E-mail" required>
-            <i class='bx bxs-user'></i>
-        </div>
-        <div class="imput-box">
-            <input type="password" placeholder="Senha" required>
-            <i class='bx bxs-lock-alt'></i>
-        </div>
+		<div class="imput-box">
+			<input type="password" placeholder="Senha" required>
+			<i class='bx bxs-lock-alt'></i>
+		</div>
 
-        <div class="container">
-            <main role="main" class="pb-3">
-                @RenderBody()
-            </main>
-        </div>
+		<div class="remember-forgot">
+			<label><input type="checkbox"> Mostrar senha </label>
+			<a href="#">Esqueci a senha</a>
+		</div>
 
-        <div class="remember-forgot">
-            <label><input type="checkbox"> Mostrar senha </label>
-            <a href="#">Esqueci a senha</a>
-        </div>
+		<button type="submit" class="btn">Login</button>
 
-        <button type="submit" class="btn">Login</button>
+		<div class="register-link">
+			<br />
+			<p>Ainda não tem um login? <a href="#">Registra-se</a></p>
+		</div>
+	</div>
 
-        <div class="register-link">
-            <br/>
-            <p>Ainda não tem um login? <a href="#">Registra-se</a></p>
-        </div>
-    </div>
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
 
-    @RenderSection("Scripts", required: false)
+	@RenderSection("Scripts", required: false)
 </body>
-
 </html>

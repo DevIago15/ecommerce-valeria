@@ -39,33 +39,31 @@ namespace EcommerceCCO2023.Models.Data
             }
             catch (SqlException erro)
             {
-                Console.WriteLine("\n\n Erro de cadastro do Produto " + erro);
+                Console.WriteLine("\n\n Erro de cadastro do Cliente " + erro);
             }
             return sucesso;
         }
 
-        public Cliente Read(string email)
+        // Método Read para consultar clientes pelo e-mail
+        public List<Cliente> Read(string email)
         {
-            Cliente cliente = null;
+            List<Cliente> clientes = new List<Cliente>();
 
-            string select = "select * from v_Cliente where email = @Email";
+            string select = "SELECT * FROM v_Cliente WHERE email = @Email";
 
             try
             {
-                SqlConnection conexaoBD = Data.ConectarBancoDados();
-
-                SqlCommand cmd = new SqlCommand(select, conexaoBD);
+                using (SqlConnection conexaoBD = Data.ConectarBancoDados())
                 {
-
+                    using (SqlCommand cmd = new SqlCommand(select, conexaoBD))
                     {
-                        // Use SqlParameter para evitar SQL Injection
                         cmd.Parameters.AddWithValue("@Email", email);
 
                         SqlDataReader reader = cmd.ExecuteReader();
 
-                        if (reader.Read())
+                        while (reader.Read())
                         {
-                            cliente = new Cliente
+                            Cliente cliente = new Cliente
                             {
                                 IdCliente = (int)reader["idCliente"],
                                 Nome = reader["nomeCli"].ToString(),
@@ -78,6 +76,8 @@ namespace EcommerceCCO2023.Models.Data
                             {
                                 cliente.Foto = reader["foto"].ToString();
                             }
+
+                            clientes.Add(cliente);
                         }
                     }
                 }
@@ -87,8 +87,9 @@ namespace EcommerceCCO2023.Models.Data
                 Console.WriteLine("\n\n\n Erro Cliente " + erro + "\n\n\n");
             }
 
-            return cliente;
+            return clientes;
         }
+
 
         // método read para consultar o produto pelo seu id
         public Cliente Read(int id)
