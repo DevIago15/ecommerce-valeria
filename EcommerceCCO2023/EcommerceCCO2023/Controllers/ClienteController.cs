@@ -1,8 +1,11 @@
 ﻿using EcommerceCCO2023.Models;
 using EcommerceCCO2023.Models.Data;
 using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Data;
+=======
+>>>>>>> parent of a0622d6 (andamento)
 
 namespace EcommerceCCO2023.Controllers
 {
@@ -15,9 +18,9 @@ namespace EcommerceCCO2023.Controllers
 
         }
 
-        [HttpPost]
-        public IActionResult IndexLogin(Cliente cliente)
+        public IActionResult IndexLogin()
         {
+<<<<<<< HEAD
             if(cliente.Email != null && cliente.Senha != null)
             {
                 ClienteData cliData = new ClienteData();
@@ -28,7 +31,10 @@ namespace EcommerceCCO2023.Controllers
                     return RedirectToAction("Index", "Home");
                 }
             }
+=======
+>>>>>>> parent of a0622d6 (andamento)
             return View();
+
         }
         public IActionResult Create()
         {
