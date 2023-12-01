@@ -13,8 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-size: cover;
-    background-color: orange;
-    /*background-image: url("~/images/login.jpg" );*/
+    background-image: url("../images/login.jpg");
     background-position: center;
 }
 

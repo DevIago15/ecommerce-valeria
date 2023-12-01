@@ -392,14 +392,12 @@ C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\Ecommerc
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.TagHelpers.input.cache
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.TagHelpers.output.cache
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.RazorCoreGenerate.cache
-C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Produto\Create.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Produto\IndexProd.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Produto\Update.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Carousel.cshtml.g.cs
-C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutProduto.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ProdutoResumo.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -576,3 +574,7 @@ C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\Ecommerce
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\IndexHome.cshtml.g.cs
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\IndexLogin.cshtml.g.cs
+C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\IndexLogin.cshtml.g.cs
+C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\IndexHome.cshtml.g.cs
+C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutHome.cshtml.g.cs
+C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs

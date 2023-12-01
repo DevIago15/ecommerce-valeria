@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {}
+    "C:\\Users\\Miranda\\Documents\\Ecommerce\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {
+    "C:\\Users\\Miranda\\Documents\\Ecommerce\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+        "projectUniqueName": "C:\\Users\\Miranda\\Documents\\Ecommerce\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
         "projectName": "EcommerceCCO2023",
-        "projectPath": "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+        "projectPath": "C:\\Users\\Miranda\\Documents\\Ecommerce\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
         "packagesPath": "C:\\Users\\Miranda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\obj\\",
+        "outputPath": "C:\\Users\\Miranda\\Documents\\Ecommerce\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",
