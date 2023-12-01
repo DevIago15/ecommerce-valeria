@@ -13,6 +13,11 @@ namespace EcommerceCCO2023.Controllers
 
         }
 
+        public IActionResult IndexLogin()
+        {
+            return View();
+
+        }
         public IActionResult Create()
         {
             ClienteData data = new ClienteData();
