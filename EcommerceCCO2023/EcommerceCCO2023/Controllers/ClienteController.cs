@@ -1,6 +1,7 @@
 ﻿using EcommerceCCO2023.Models;
 using EcommerceCCO2023.Models.Data;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Data;
 
 namespace EcommerceCCO2023.Controllers
@@ -19,12 +20,12 @@ namespace EcommerceCCO2023.Controllers
         {
             if(cliente.Email != null && cliente.Senha != null)
             {
-                Cliente cli = new Cliente();
                 ClienteData cliData = new ClienteData();
-                     cli = cliData.Read(cliente.Email);
-                if(cli.Email == cliente.Email && cli.Senha == cliente.Senha)
+                List<Cliente> clientes = cliData.Read(cliente.Email);
+
+                if (clientes.Count > 0 && clientes[0].Senha == cliente.Senha)
                 {
-                    return RedirectToAction("Index", "Home");   
+                    return RedirectToAction("Index", "Home");
                 }
             }
             return View();

@@ -39,57 +39,56 @@ namespace EcommerceCCO2023.Models.Data
             }
             catch (SqlException erro)
             {
-                Console.WriteLine("\n\n Erro de cadastro do Produto " + erro);
+                Console.WriteLine("\n\n Erro de cadastro do Cliente " + erro);
             }
             return sucesso;
         }
 
-        // método read para consultar todos os produtos 
-        public List<Cliente> Read()
+        // Método Read para consultar clientes pelo e-mail
+        public List<Cliente> Read(string email)
         {
-            // daclaração da lista
-            List<Cliente> lista = null;
+            List<Cliente> clientes = new List<Cliente>();
 
-            // declarar a string SQL para fazer a consulta
-            // dos dados de todos os Produto 
-            string select = "select * from v_Cliente";
-            
+            string select = "SELECT * FROM v_Cliente WHERE email = @Email";
+
             try
-            {                
-                // Conexão com  o BD
-                SqlConnection conexaoBD = Data.ConectarBancoDados();
-                // Comando que executa o SQL no BD
-                SqlCommand cmd = new SqlCommand(select, conexaoBD);
-                // Execução do select
-                SqlDataReader reader = cmd.ExecuteReader();
-
-                // instancão a lista
-                lista = new List<Cliente>();
-
-                while (reader.Read())
-                {                                      
-                    Cliente cliente = new Cliente();
-                    cliente.IdCliente = (int)reader["idCliente"];
-                    cliente.Nome = reader["nomeCli"].ToString();
-                    cliente.Email = reader["email"].ToString();
-                    cliente.Senha = reader["senha"].ToString();
-                    cliente.statusCli = (int)reader["status"];
-
-                    if (!reader.IsDBNull(5))
+            {
+                using (SqlConnection conexaoBD = Data.ConectarBancoDados())
+                {
+                    using (SqlCommand cmd = new SqlCommand(select, conexaoBD))
                     {
-                        cliente.Foto = reader["foto"].ToString();
+                        cmd.Parameters.AddWithValue("@Email", email);
+
+                        SqlDataReader reader = cmd.ExecuteReader();
+
+                        while (reader.Read())
+                        {
+                            Cliente cliente = new Cliente
+                            {
+                                IdCliente = (int)reader["idCliente"],
+                                Nome = reader["nomeCli"].ToString(),
+                                Email = reader["email"].ToString(),
+                                Senha = reader["senha"].ToString(),
+                                statusCli = (int)reader["status"],
+                            };
+
+                            if (!reader.IsDBNull(5))
+                            {
+                                cliente.Foto = reader["foto"].ToString();
+                            }
+
+                            clientes.Add(cliente);
+                        }
                     }
-                    lista.Add(cliente);
                 }
-            } 
+            }
             catch (SqlException erro)
             {
                 Console.WriteLine("\n\n\n Erro Cliente " + erro + "\n\n\n");
             }
-          
-            return lista;
-        }
 
+            return clientes;
+        }
 
 
         // método read para consultar o produto pelo seu id
@@ -181,6 +180,11 @@ namespace EcommerceCCO2023.Models.Data
                 sucesso = true;
             }
             return sucesso;
+        }
+
+        internal object Read()
+        {
+            throw new NotImplementedException();
         }
     }
 }
