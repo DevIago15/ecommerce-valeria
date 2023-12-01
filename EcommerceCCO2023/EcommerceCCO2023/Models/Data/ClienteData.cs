@@ -44,53 +44,51 @@ namespace EcommerceCCO2023.Models.Data
             return sucesso;
         }
 
-        // método read para consultar todos os produtos 
-        public List<Cliente> Read()
+        public Cliente Read(string email)
         {
-            // daclaração da lista
-            List<Cliente> lista = null;
+            Cliente cliente = null;
 
-            // declarar a string SQL para fazer a consulta
-            // dos dados de todos os Produto 
-            string select = "select * from v_Cliente";
-            
+            string select = "select * from v_Cliente where email = @Email";
+
             try
-            {                
-                // Conexão com  o BD
+            {
                 SqlConnection conexaoBD = Data.ConectarBancoDados();
-                // Comando que executa o SQL no BD
+
                 SqlCommand cmd = new SqlCommand(select, conexaoBD);
-                // Execução do select
-                SqlDataReader reader = cmd.ExecuteReader();
+                {
 
-                // instancão a lista
-                lista = new List<Cliente>();
-
-                while (reader.Read())
-                {                                      
-                    Cliente cliente = new Cliente();
-                    cliente.IdCliente = (int)reader["idCliente"];
-                    cliente.Nome = reader["nomeCli"].ToString();
-                    cliente.Email = reader["email"].ToString();
-                    cliente.Senha = reader["senha"].ToString();
-                    cliente.statusCli = (int)reader["status"];
-
-                    if (!reader.IsDBNull(5))
                     {
-                        cliente.Foto = reader["foto"].ToString();
+                        // Use SqlParameter para evitar SQL Injection
+                        cmd.Parameters.AddWithValue("@Email", email);
+
+                        SqlDataReader reader = cmd.ExecuteReader();
+
+                        if (reader.Read())
+                        {
+                            cliente = new Cliente
+                            {
+                                IdCliente = (int)reader["idCliente"],
+                                Nome = reader["nomeCli"].ToString(),
+                                Email = reader["email"].ToString(),
+                                Senha = reader["senha"].ToString(),
+                                statusCli = (int)reader["status"],
+                            };
+
+                            if (!reader.IsDBNull(5))
+                            {
+                                cliente.Foto = reader["foto"].ToString();
+                            }
+                        }
                     }
-                    lista.Add(cliente);
                 }
-            } 
+            }
             catch (SqlException erro)
             {
                 Console.WriteLine("\n\n\n Erro Cliente " + erro + "\n\n\n");
             }
-          
-            return lista;
+
+            return cliente;
         }
-
-
 
         // método read para consultar o produto pelo seu id
         public Cliente Read(int id)
@@ -181,6 +179,11 @@ namespace EcommerceCCO2023.Models.Data
                 sucesso = true;
             }
             return sucesso;
+        }
+
+        internal object Read()
+        {
+            throw new NotImplementedException();
         }
     }
 }

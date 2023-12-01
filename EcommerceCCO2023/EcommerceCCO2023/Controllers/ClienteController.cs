@@ -19,10 +19,12 @@ namespace EcommerceCCO2023.Controllers
         {
             if(cliente.Email != null && cliente.Senha != null)
             {
-                Cliente cli = new Cliente();
+                Cliente c = new Cliente();
                 ClienteData cliData = new ClienteData();
-                     cli = cliData.Read(cliente.Email);
-                if(cli.Email == cliente.Email && cli.Senha == cliente.Senha)
+
+                c = cliData.Read(cliente.Email);
+
+                if(c.Email == cliente.Email && c.Senha == cliente.Senha)
                 {
                     return RedirectToAction("Index", "Home");   
                 }

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Miranda\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Miranda\\.nuget\\packages"
+      "C:\\Users\\Lagoa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Lagoa\\.nuget\\packages"
     ]
   }
 }
