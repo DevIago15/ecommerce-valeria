@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = EcommerceCCO2023
-build_property.ProjectDir = C:\Users\Lagoa\OneDrive\Área de Trabalho\EcommerCommitado\EcommerceCCO2023\EcommerceCCO2023\
+build_property.ProjectDir = C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

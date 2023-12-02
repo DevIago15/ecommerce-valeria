@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerCommitado\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {}
+    "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerCommitado\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {
+    "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerCommitado\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+        "projectUniqueName": "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
         "projectName": "EcommerceCCO2023",
-        "projectPath": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerCommitado\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
-        "packagesPath": "C:\\Users\\Lagoa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lagoa\\OneDrive\\Área de Trabalho\\EcommerCommitado\\EcommerceCCO2023\\EcommerceCCO2023\\obj\\",
+        "projectPath": "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\EcommerceCCO2023.csproj",
+        "packagesPath": "C:\\Users\\Miranda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miranda\\Documents\\Projetos\\ecommerce-valeria\\EcommerceCCO2023\\EcommerceCCO2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lagoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

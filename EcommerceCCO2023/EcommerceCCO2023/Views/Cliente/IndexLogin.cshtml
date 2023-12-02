@@ -3,36 +3,3 @@
 @{
     Layout = "_LayoutLogin";
 }
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login</title>
-</head>
-<body>
-    <div>
-        <h2>Login</h2>
-
-        @if (Model != null && Model.Count > 0)
-        {
-            <p>Usuários cadastrados:</p>
-            <ul>
-                @foreach (var cliente in Model)
-                {
-                    <li>@cliente.Email</li>
-                }
-            </ul>
-        }
-
-        <form aps-controller="Cliente" asp-action="IndexLogin" method="POST">
-            <label for="email">Email:</label>
-            <input asp-for="Email" type="email" name="email" required />
-
-            <label for="senha">Senha:</label>
-            <input type="password" name="senha" required />
-
-            <button type="submit">Login</button>
-        </form>
-    </div>
-</body>
-</html>
