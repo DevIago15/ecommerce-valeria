@@ -572,8 +572,8 @@ C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\Ecommerce
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.genruntimeconfig.cache
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutHome.cshtml.g.cs
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
-C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\IndexHome.cshtml.g.cs
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\IndexLogin.cshtml.g.cs
+<<<<<<< HEAD
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\IndexLogin.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\IndexHome.cshtml.g.cs
 C:\Users\Miranda\Documents\Ecommerce\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutHome.cshtml.g.cs
@@ -873,3 +873,6 @@ C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\ecommerce-valeria\Ecommerc
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.buildTransitive.EcommerceCCO2023.props
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.csproj.CopyComplete
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.genruntimeconfig.cache
+=======
+C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+>>>>>>> Matheus

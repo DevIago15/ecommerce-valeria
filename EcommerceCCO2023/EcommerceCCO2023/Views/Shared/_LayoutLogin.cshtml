@@ -8,37 +8,40 @@
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-	<div class="wrapper">
-		<h1>Login</h1>
-		<div class="imput-box">
-			<input type="text" placeholder="E-mail" required>
-			<i class='bx bxs-user'></i>
-		</div>
 
-		<div class="imput-box">
-			<input type="password" placeholder="Senha" required>
-			<i class='bx bxs-lock-alt'></i>
-		</div>
+    <div class="wrapper">
+        <h1>Login</h1>
 
-		<div class="remember-forgot">
-			<label><input type="checkbox"> Mostrar senha </label>
-			<a href="#">Esqueci a senha</a>
-		</div>
+        <form method="post" action="@Url.Action("Login", "Cliente")">
+            <div class="imput-box">
+                <input type="text" name="Email" placeholder="E-mail" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="imput-box">
+                <input type="password" name="Senha" placeholder="Senha" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
 
-		<button type="submit" class="btn">Login</button>
+            <div class="container">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
 
-		<div class="register-link">
-			<br />
-			<p>Ainda não tem um login? <a href="#">Registra-se</a></p>
-		</div>
-	</div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Mostrar senha </label>
+                <a href="#">Esqueci minha senha</a>
+            </div>
 
-	<div class="container">
-		<main role="main" class="pb-3">
-			@RenderBody()
-		</main>
-	</div>
+            <button type="submit" class="btn">Login</button>
+        </form>
 
-	@RenderSection("Scripts", required: false)
+        <div class="register-link">
+            <p>Não tem Login? <a href="#">Register</a></p>
+        </div>
+    </div>
+
+    @RenderSection("Scripts", required: false)
 </body>
+
 </html>
