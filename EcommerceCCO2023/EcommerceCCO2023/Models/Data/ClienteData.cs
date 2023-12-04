@@ -39,15 +39,16 @@ namespace EcommerceCCO2023.Models.Data
             }
             catch (SqlException erro)
             {
-                Console.WriteLine("\n\n Erro de cadastro do Cliente " + erro);
+                Console.WriteLine("\n\n Erro de cadastro do Produto " + erro);
             }
             return sucesso;
         }
 
-        // Método Read para consultar clientes pelo e-mail
-        public List<Cliente> Read(string email)
+        // método read para consultar todos os produtos 
+        public List<Cliente> Read()
         {
-            List<Cliente> clientes = new List<Cliente>();
+            // daclaração da lista
+            List<Cliente> lista = null;
 
             // declarar a string SQL para fazer a consulta
             // dos dados de todos os Produto 
@@ -74,14 +75,11 @@ namespace EcommerceCCO2023.Models.Data
                     cliente.Senha = reader["senha"].ToString();
                     cliente.statusCli = (int)reader["status"];
 
-                            if (!reader.IsDBNull(5))
-                            {
-                                cliente.Foto = reader["foto"].ToString();
-                            }
-
-                            clientes.Add(cliente);
-                        }
+                    if (!reader.IsDBNull(5))
+                    {
+                        cliente.Foto = reader["foto"].ToString();
                     }
+                    lista.Add(cliente);
                 }
             }
             catch (SqlException erro)
@@ -91,6 +89,7 @@ namespace EcommerceCCO2023.Models.Data
 
             return lista;
         }
+
 
 
         // método read para consultar o produto pelo seu id
