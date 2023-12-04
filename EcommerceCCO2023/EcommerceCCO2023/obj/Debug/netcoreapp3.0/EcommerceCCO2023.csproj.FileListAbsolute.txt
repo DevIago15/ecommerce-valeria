@@ -574,5 +574,5 @@ C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\Ecommerce
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\EcommerceCCO2023.genruntimeconfig.cache
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutHome.cshtml.g.cs
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
-C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\IndexHome.cshtml.g.cs
 C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Cliente\IndexLogin.cshtml.g.cs
+C:\Users\Miranda\Documents\Projetos\ecommerce-valeria\EcommerceCCO2023\EcommerceCCO2023\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs

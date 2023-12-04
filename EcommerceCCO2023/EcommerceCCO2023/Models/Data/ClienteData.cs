@@ -53,9 +53,9 @@ namespace EcommerceCCO2023.Models.Data
             // declarar a string SQL para fazer a consulta
             // dos dados de todos os Produto 
             string select = "select * from v_Cliente";
-            
+
             try
-            {                
+            {
                 // Conexão com  o BD
                 SqlConnection conexaoBD = Data.ConectarBancoDados();
                 // Comando que executa o SQL no BD
@@ -67,7 +67,7 @@ namespace EcommerceCCO2023.Models.Data
                 lista = new List<Cliente>();
 
                 while (reader.Read())
-                {                                      
+                {
                     Cliente cliente = new Cliente();
                     cliente.IdCliente = (int)reader["idCliente"];
                     cliente.Nome = reader["nomeCli"].ToString();
@@ -81,12 +81,12 @@ namespace EcommerceCCO2023.Models.Data
                     }
                     lista.Add(cliente);
                 }
-            } 
+            }
             catch (SqlException erro)
             {
                 Console.WriteLine("\n\n\n Erro Cliente " + erro + "\n\n\n");
             }
-          
+
             return lista;
         }
 
@@ -106,7 +106,7 @@ namespace EcommerceCCO2023.Models.Data
             // Execução do select
             SqlDataReader reader = cmd.ExecuteReader();
             Cliente cliente = null;
-            if(reader.Read())
+            if (reader.Read())
             {
                 cliente = new Cliente();
                 cliente.IdCliente = (int)reader["idCliente"];
@@ -174,13 +174,62 @@ namespace EcommerceCCO2023.Models.Data
             SqlConnection conexaoBD = Data.ConectarBancoDados();
             // Comando que executa o SQL no BD
             SqlCommand cmd = new SqlCommand(delete, conexaoBD);
-            
+
             if (cmd.ExecuteNonQuery() == 1)
             {
                 Data.fecharConexaoBancoDados();
                 sucesso = true;
             }
             return sucesso;
+        }
+        public Cliente Authenticate(string email, string senha)
+        {
+            Cliente cliente = null;
+
+            // Criar a string SQL para fazer a autenticação
+            string select = "SELECT * FROM Clientes WHERE Email = @Email AND Senha = @Senha";
+
+            try
+            {
+                // Conexão com o BD
+                using (SqlConnection conexaoBD = Data.ConectarBancoDados())
+                {
+                    // Comando que executa o SQL no BD
+                    using (SqlCommand cmd = new SqlCommand(select, conexaoBD))
+                    {
+                        // Adicionar parâmetros
+                        cmd.Parameters.AddWithValue("@Email", email);
+                        cmd.Parameters.AddWithValue("@Senha", senha);
+
+                        // Execução do select
+                        SqlDataReader reader = cmd.ExecuteReader();
+
+                        if (reader.Read())
+                        {
+                            // Cliente autenticado com sucesso
+                            cliente = new Cliente
+                            {
+                                IdCliente = (int)reader["idCliente"],
+                                Nome = reader["nomeCli"].ToString(),
+                                Email = reader["email"].ToString(),
+                                Senha = reader["senha"].ToString(),
+                                statusCli = (int)reader["Status"]
+                            };
+
+                            if (!reader.IsDBNull(5))
+                            {
+                                cliente.Foto = reader["foto"].ToString();
+                            }
+                        }
+                    }
+                }
+            }
+            catch (SqlException erro)
+            {
+                Console.WriteLine("\n\n\n Erro de Autenticação do Cliente " + erro + "\n\n\n");
+            }
+
+            return cliente;
         }
     }
 }

@@ -13,16 +13,35 @@ namespace EcommerceCCO2023.Controllers
 
         }
 
-        public IActionResult IndexLogin()
-        {
-            return View();
-
-        }
         public IActionResult Create()
         {
             ClienteData data = new ClienteData();
             ViewBag.Cliente = data.Read();
             return View();
+        }
+        // Método para exibir a tela de login
+        public IActionResult IndexLogin()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Login(string email, string senha)
+        {
+            ClienteData clienteData = new ClienteData();
+            Cliente cliente = clienteData.Authenticate(email, senha);
+
+            if (cliente != null)
+            {
+                // Autenticação bem-sucedida
+                return RedirectToAction("Index", "Home"); // Redirecione para a página inicial
+            }
+            else
+            {
+                // Autenticação falhou
+                ViewBag.ErrorMessage = "Credenciais inválidas. Tente novamente.";
+                return View("IndexLogin"); // Ou qualquer outra view que exibe o formulário de login
+            }
         }
 
         [HttpPost]
