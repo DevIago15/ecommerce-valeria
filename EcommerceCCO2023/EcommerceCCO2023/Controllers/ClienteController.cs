@@ -34,15 +34,17 @@ namespace EcommerceCCO2023.Controllers
             if (cliente != null)
             {
                 // Autenticação bem-sucedida
+                TempData["MensagemSucesso"] = "Login bem-sucedido!";
                 return RedirectToAction("Index", "Home"); // Redirecione para a página inicial
             }
             else
             {
                 // Autenticação falhou
-                ViewBag.ErrorMessage = "Credenciais inválidas. Tente novamente.";
+                TempData["MensagemErro"] = "Credenciais inválidas. Tente novamente.";
                 return View("IndexLogin"); // Ou qualquer outra view que exibe o formulário de login
             }
         }
+
 
         [HttpPost]
         public IActionResult Create(Cliente cliente)
