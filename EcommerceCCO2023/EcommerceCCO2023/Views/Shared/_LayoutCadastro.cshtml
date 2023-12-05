@@ -15,15 +15,22 @@
     <div class="wrapper">
         <h1>Login</h1>
 
-        <form method="post" action="@Url.Action("Login", "Cliente")">
+        <form method="post" action="@Url.Action("Create", "Cliente")">
             <div class="imput-box">
-                <input type="text" name="Email" placeholder="E-mail" required>
+                <input type="text" name="Nome" placeholder="Digite seu nome" required>
                 <i class='bx bxs-user'></i>
             </div>
             <div class="imput-box">
-                <input type="password" name="Senha" placeholder="Senha" required>
+                <input type="text" name="Email" placeholder="Digite seu email" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
+            <div class="imput-box">
+                <input type="password" name="Senha" placeholder="Digite sua senha" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="imput-box">
+                <input type="text" name="Foto" placeholder="Digite a URL da sua Foto" required>
+                <i class='bx bxs-lock-alt'></i>
 
             <div class="container">
                 <main role="main" class="pb-3">
@@ -31,11 +38,8 @@
                 </main>
             </div>
 
-            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn">Cadastrar</button>
         </form>
-        <div class="register-link">
-            <p>Não tem Login? <a href="/Cliente/Create">Register</a></p>
-        </div>
     </div>
 
     @RenderSection("Scripts", required: false)

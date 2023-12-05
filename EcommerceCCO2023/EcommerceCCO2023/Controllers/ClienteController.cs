@@ -34,14 +34,13 @@ namespace EcommerceCCO2023.Controllers
             if (cliente != null)
             {
                 // Autenticação bem-sucedida
-                TempData["MensagemSucesso"] = "Login bem-sucedido!";
-                return RedirectToAction("Index", "Home"); // Redirecione para a página inicial
+                return RedirectToAction("Index", "Home"); // Redireciona para a página inicial
             }
             else
             {
                 // Autenticação falhou
-                TempData["MensagemErro"] = "Credenciais inválidas. Tente novamente.";
-                return View("IndexLogin"); // Ou qualquer outra view que exibe o formulário de login
+                TempData["MensagemErro"] = "Credenciais inválidas. Registre-se Agora";
+                return View("IndexCadastro"); // Redireciona para o cadastro
             }
         }
 
@@ -55,7 +54,7 @@ namespace EcommerceCCO2023.Controllers
                 data.Create(cliente);
             }
 
-            return RedirectToAction("IndexCliente");
+            return RedirectToAction("IndexLogin", "Cliente");
         }
 
         [HttpGet]

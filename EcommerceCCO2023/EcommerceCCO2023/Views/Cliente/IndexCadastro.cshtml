@@ -1,0 +1,20 @@
+﻿@model EcommerceCCO2023.Models.Cliente
+@{
+    ViewData["Title"] = "Cadastro";
+    Layout = "~/Views/Shared/_LayoutCadastro.cshtml";
+}
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["MensagemErro"]
+    </div>
+}
+
